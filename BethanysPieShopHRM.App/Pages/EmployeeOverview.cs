@@ -10,7 +10,7 @@ namespace BethanysPieShopHRM.App.Pages
     {
         public IEnumerable<Employee> Employees { get; set; }
 
-        private List<Country> Countries { get; set; }
+        private List<Country> Countries { get; set; } 
 
         private List<JobCategory> JobCategories { get; set; }
 
