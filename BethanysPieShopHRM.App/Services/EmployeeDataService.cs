@@ -58,6 +58,6 @@ namespace BethanysPieShopHRM.App.Services
                 (await _httpClient.GetStreamAsync($"api/employee/{employeeId}"), new JsonSerializerOptions() { PropertyNameCaseInsensitive = true });
         }
 
-       
+
     }
 }
