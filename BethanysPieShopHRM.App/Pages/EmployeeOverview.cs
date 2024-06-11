@@ -11,10 +11,10 @@ namespace BethanysPieShopHRM.App.Pages
 {
     public partial class EmployeeOverview
     {
+        public IEnumerable<Employee> Employees { get; set; }
+
         [Inject]
         public IEmployeeDataService EmployeeDataService { get; set; }
-
-        public IEnumerable<Employee> Employees { get; set; }
 
         protected AddEmployeeDialog AddEmployeeDialog { get; set; }
 
